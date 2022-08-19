@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Hi Microverse!!
 
 > Description the project.
