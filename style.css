@@ -1,3 +1,34 @@
-.title {
-  color: greenyellow;
+h1 {
+  font-size: 50px;
+  color: purple;
+  font-family: fantasy;
+  transition: 10s;
+}
+
+h1:hover {
+
+  color: yellow;
+  font-size: 400px;
+}
+
+.background {
+  background: rgb(59,226,254);
+  background: linear-gradient(90deg, rgba(59,226,254,1) 0%, rgba(250,38,236,1) 100%);
+  animation: 1s;
+  animation-name: animacion;
+  animation-iteration-count: infinite;
+  width: 100vw;
+  height: 100vh;
+}
+
+@keyframes animacion {
+  from {
+    background: rgb(59,226,254);
+  background: linear-gradient(90deg, rgba(59,226,254,1) 0%, rgba(250,38,236,1) 100%);
+  }
+
+  to {
+    background: rgb(250,254,59);
+    background: linear-gradient(90deg, rgba(250,254,59,1) 0%, rgba(38,250,66,1) 100%);
+  }
 }
